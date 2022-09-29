@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <title>Youtube Clone</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="upload-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img class="current-user-picture" src="icons/code.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+
+    <div class="sidebar-link">
+      <div class="icons-div">
+        <img src="icons/home.svg">
+      </div>
+      <div class="icons-text">Home</div>
+    </div>
+
+    <div class="sidebar-link">
+      <div class="icons-div">
+        <img src="icons/explore.svg">
+      </div>
+      <div class="icons-text">Explore</div>
+    </div>
+
+    <div class="sidebar-link">
+      <div class="icons-div">
+        <img src="icons/subscriptions.svg">
+      </div>
+      <div class="icons-text">Subscriptions</div>
+    </div>
+
+    <div class="sidebar-link">
+      <div class="icons-div">
+        <img src="icons/originals.svg">
+      </div>
+      <div class="icons-text">Originals</div>
+    </div>
+
+    <div class="sidebar-link">
+      <div class="icons-div">
+        <img src="icons/youtube-music.svg">
+      </div>
+      <div class="icons-text">YouTube Music</div>
+    </div>
+
+    <div class="sidebar-link">
+      <div class="icons-div">
+        <img src="icons/library.svg">
+      </div>
+      <div class="icons-text">Library</div>
+    </div>
+
+  </nav>
+
+  <main>
+    <section class="video-grid">
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=DsVzKCk066g">
+            <img class="thumbnail" src="thumbnails/exercise.webp">
+          </a>
+          <div class="video-time">15:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/WhatIveLearned">
+              <img class="profile-picture" src="channel-pictures/whativelearned.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=DsVzKCk066g">
+              <p class="video-title">WHY Exercise is so Underrated (Brain Power & Movement Link)</p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/WhatIveLearned">
+              <p class="video-author">What I've Learned</p>
+            </a>
+            <p class="video-stats">3.8M views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=qkdUGC-izus">
+            <img class="thumbnail" src="thumbnails/study.webp">
+          </a>
+          <div class="video-time">11:48:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/JamesScholz">
+              <img class="profile-picture" src="channel-pictures/jamesscholz.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=qkdUGC-izus">
+              <p class="video-title">study with me live pomodoro | 12 hours *super revision day*</p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/JamesScholz">
+              <p class="video-author">James Scholz</p>
+            </a>
+            <p class="video-stats">801K views &#183; 1 year ago </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=EeZoJBP3rS8">
+            <img class="thumbnail" src="thumbnails/thanks.webp">
+          </a>
+          <div class="video-time">8:04</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5%D0%9C%D1%8B%D1%81%D0%BB%D0%B8">
+              <img class="profile-picture" src="channel-pictures/simplethoughts.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=EeZoJBP3rS8">
+              <p class="video-title">Как благодарность ИЗМЕНИТ вашу жизнь</p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/%D0%9F%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%B5%D0%9C%D1%8B%D1%81%D0%BB%D0%B8">
+              <p class="video-author">Простые Мысли</p>
+            </a>
+            <p class="video-stats">175K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=kiMcX3Fa2Us">
+            <img class="thumbnail" src="thumbnails/2years.webp">
+          </a>
+          <div class="video-time">10:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/LukeSmithxyz">
+              <img class="profile-picture" src="channel-pictures/luke.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=kiMcX3Fa2Us">
+              <p class="video-title">Why I Went 2 Years with No Internet at Home</p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/LukeSmithxyz">
+              <p class="video-author">Luke Smith</p>
+            </a>
+            <p class="video-stats">160K views &#183; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=casK0pXZ5sc">
+            <img class="thumbnail" src="thumbnails/letgo.webp">
+          </a>
+          <div class="video-time">15:11</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/Einzelg%C3%A4nger">
+              <img class="profile-picture" src="channel-pictures/einz.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=casK0pXZ5sc">
+              <p class="video-title">How to Simplify Your Life | Minimalist Philosophy</p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/Einzelg%C3%A4nger">
+              <p class="video-author">Einzelgänger</p>
+            </a>
+            <p class="video-stats">229K views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=C9klpdIIzPY">
+            <img class="thumbnail" src="thumbnails/chocobars.webp">
+          </a>
+          <div class="video-time">20:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/MyGap">
+              <img class="profile-picture" src="channel-pictures/mygap.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=C9klpdIIzPY">
+              <p class="video-title">[MyGap] - Как научиться откладывать деньги, если постоянно жрешь шоколадки</p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/MyGap">
+              <p class="video-author">MyGap</p>
+            </a>
+            <p class="video-stats">3.2M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=C25qzDhGLx8">
+            <img class="thumbnail" src="thumbnails/death.webp">
+          </a>
+          <div class="video-time">20:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/greymatter">
+              <img class="profile-picture" src="channel-pictures/grey.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=C25qzDhGLx8">
+              <p class="video-title">
+                Why Die?
+              </p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/greymatter">
+              <p class="video-author">CGP Grey</p>
+            </a>
+            <p class="video-stats">6.9M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=UVWciFJeFNA">
+            <img class="thumbnail" src="thumbnails/selfdrive.webp">
+          </a>
+          <div class="video-time">7:38</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/AdamSomething">
+              <img class="profile-picture" src="channel-pictures/adamsomething.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=UVWciFJeFNA">
+              <p class="video-title">
+                Self-Driving Cars Will Only Make Traffic Worse
+              </p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/AdamSomething">
+              <p class="video-author">Adam Something</p>
+            </a>
+            <p class="video-stats">529K views &#183; 3 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=CTV-wwszGw8">
+            <img class="thumbnail" src="thumbnails/loudcar.webp">
+          </a>
+          <div class="video-time">7:38</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/NotJustBikes">
+              <img class="profile-picture" src="channel-pictures/notjustbikes.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=CTV-wwszGw8">
+              <p class="video-title">
+                Cities Aren't Loud: Cars Are Loud
+              </p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/NotJustBikes">
+              <p class="video-author">Not Just Bikes</p>
+            </a>
+            <p class="video-stats">1.3M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=rvskMHn0sqQ">
+            <img class="thumbnail" src="thumbnails/egoistic.webp">
+          </a>
+          <div class="video-time">7:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/inanutshell">
+              <img class="profile-picture" src="channel-pictures/kurzgesagt.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=rvskMHn0sqQ">
+              <p class="video-title">
+                A Selfish Argument for Making the World a Better Place – Egoistic Altruism
+              </p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/inanutshell">
+              <p class="video-author">Kurzgesagt – In a Nutshell</p>
+            </a>
+            <p class="video-stats">10M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=jIngqODw8x4">
+            <img class="thumbnail" src="thumbnails/athlete.webp">
+          </a>
+          <div class="video-time">16:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/TheKneesovertoesguy">
+              <img class="profile-picture" src="channel-pictures/kneesovertoesguy.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=jIngqODw8x4">
+              <p class="video-title">
+                How to Make Yourself a World-Class Athlete
+              </p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/TheKneesovertoesguy">
+              <p class="video-author">The Kneesovertoesguy</p>
+            </a>
+            <p class="video-stats">2.5M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a class="video-link" href="https://www.youtube.com/watch?v=4ZxzBcxB7Zc">
+            <img class="thumbnail" src="thumbnails/everything.webp">
+          </a>
+          <div class="video-time">42:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a class="author-link" href="https://www.youtube.com/c/BritMonkey">
+              <img class="profile-picture" src="channel-pictures/britmonkey.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a class="video-link" href="https://www.youtube.com/watch?v=4ZxzBcxB7Zc">
+              <p class="video-title">
+                The Housing Crisis is the Everything Crisis
+              </p>
+            </a>
+            <a class="author-link" href="https://www.youtube.com/c/BritMonkey">
+              <p class="video-author">BritMonkey</p>
+            </a>
+            <p class="video-stats">961K views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </main>
+
+</body>
+
+</html>
